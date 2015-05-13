@@ -1,7 +1,9 @@
-var print1 = function() {
+var log1 = function() {
 
-var print_input = document.getElementById('input');
+var log_input = document.getElementById('input1');
+var output = log_input.value;
 
-console.log(print_input);
-document.getElementById('print_here').innerHTML = print_input;
+console.log(log_input);
+console.log(output);
+document.getElementById('print_here').innerHTML = output;
 }
